@@ -50,29 +50,29 @@ class NewsletterSytem{
     }
 }
 
-const john=new Subscriber("John","john@example.com", 10);
-const kerry=new Subscriber("Kerry","kerry@example.com",22);
-const naj=new Subscriber("Naj","naj@example.com",20)
-const dennis=new Subscriber("Dennis","dennis@example.com",28)
-const luke=new Subscriber("Luke","luke@example.com",16)
-const leia=new Subscriber("Leia", "leia@example.com",16)
-const eric=new Subscriber("eric","erci@example.com",12)
+// const john=new Subscriber("John","john@example.com", 10);
+// const kerry=new Subscriber("Kerry","kerry@example.com",22);
+// const naj=new Subscriber("Naj","naj@example.com",20)
+// const dennis=new Subscriber("Dennis","dennis@example.com",28)
+// const luke=new Subscriber("Luke","luke@example.com",16)
+// const leia=new Subscriber("Leia", "leia@example.com",16)
+// const eric=new Subscriber("eric","erci@example.com",12)
 
-let newslettersystem=new NewsletterSytem(sendEmail)
-newslettersystem.subscribe(john)
-newslettersystem.subscribe(kerry)
-newslettersystem.subscribe(naj)
-newslettersystem.subscribe(dennis)
-newslettersystem.subscribe(luke)
-newslettersystem.subscribe(leia)
-newslettersystem.subscribe(eric)
+// let newslettersystem=new NewsletterSytem(sendEmail)
+// newslettersystem.subscribe(john)
+// newslettersystem.subscribe(kerry)
+// newslettersystem.subscribe(naj)
+// newslettersystem.subscribe(dennis)
+// newslettersystem.subscribe(luke)
+// newslettersystem.subscribe(leia)
+// newslettersystem.subscribe(eric)
 
-const invitation=new Message("Come and join our conference")
-const loanAd=new Message("We have the best loan",21)
+// const invitation=new Message("Come and join our conference")
+// const loanAd=new Message("We have the best loan",21)
 
-newslettersystem.sendNewsletter(invitation)
-console.log("********************************new message***********************************");
-newslettersystem.sendNewsletter(loanAd)
+// newslettersystem.sendNewsletter(invitation)
+// console.log("********************************new message***********************************");
+// newslettersystem.sendNewsletter(loanAd)
 
 // class Demo{
 //   constructor(){
