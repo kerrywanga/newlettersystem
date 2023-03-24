@@ -51,9 +51,9 @@ class NewsletterSytem{
 }
 
 const john=new Subscriber("John","john@example.com", 10);
-const kerry=new Subscriber("Kerry","kerry@gmail.com",22);
-const naj=new Subscriber("Naj","naj@yahoo.com",20)
-const dennis=new Subscriber("Dennis","dennis@gmail.com",28)
+const kerry=new Subscriber("Kerry","kerry@example.com",22);
+const naj=new Subscriber("Naj","naj@example.com",20)
+const dennis=new Subscriber("Dennis","dennis@example.com",28)
 const luke=new Subscriber("Luke","luke@example.com",16)
 const leia=new Subscriber("Leia", "leia@example.com",16)
 const eric=new Subscriber("eric","erci@example.com",12)
